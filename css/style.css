@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+body {
+    font-family: "Hannari"; 
+}
+
+#top_pic {
+    width: 100vw;
+    height: 28rem;
+    object-fit: cover bottom;
+}
+
+header {
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_nav {
+    display: flex;
+    align-items: center;
+}
+
+.header_nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.header_nav ul li {
+    margin-right: 2.5rem;
+}
+
+/* 問い合わせフォーム */
+.contact {
+    margin-right: 4rem;
+    width: 10rem;
+    height: 5rem;
+    line-height: 5rem;
+    background-color: #000;
+    color: #fff;
+    font-size: 0.75rem;
+    display: inline-block;
+    text-align: center;
+}
+
+.contact:hover {
+    background-color: #333;
+}
+
+h1 {
+    margin: 0 4rem 0 3rem;
+    font-size: 2.5rem;
+}
+
+/* 各セクション */
+.section_title {
+    font: normal;
+    line-height: 1;
+    margin-bottom: 3rem;
+}
+
+.section_title::after {
+    content: '';
+    width: 3rem;
+    height: 1px;
+    background-color: #000;
+    display: block;
+}
+
+.section_title .en {
+    font-size: 1.5rem;
+}
+
+/* News */
+
+
+#about {
+    display: flex;
+}
+
+.a_pic {
+    width: 70%;
+    object-fit: cover;
+}
+
+.b_wrapper {
+    display: flex;
+}
+
+.b_img {
+    width: 70%;
+    height: 70%;
+}
+
+#company {
+    position: relative;
+    padding-bottom: 3rem;
+}
+
+.c_left {
+    position: absolute;
+    left: 10rem;
+}
+
+.c_right {
+    position: absolute;
+    left: 30rem;
+}
+
+.c_img {
+    width: 80%;
+    height: 80%;
+}
+
+footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
