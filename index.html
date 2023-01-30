@@ -26,32 +26,41 @@
         <a class="contact" href="#">お問い合わせ</a>
     </header>
     <main>
-        <div id="mainvisual">
+        <div id="mainvisual"　class="wrapper">
             <img id="top_pic" src="./images/クジラ.jpg" alt="top画像">
         </div>
         <section id="news">
             <h2 class="section_title"><span class="en">News</span><br><br>
                 <span class="ja">ニュース</span></h2>
-            <ul>
+            <ul class="news_content">
                 <li>
-                    <p><time>2023.1.29</time><span>News</span></p><br><br>
+                    <div class="date_area">
+                        <time datetime="2023-01-01">2023.01.01</time>
+                        <span class="">News</span><br><br>
+                    </div>
                     <p>タイトルタイトルタイトルタイトル</p>
                 </li>
                 <li>
-                    <p><time>2022.12.30</time><span>News</span></p><br><br>
+                    <div class="date_area">
+                        <time datetime="2022-12-30">2022.12.30</time>
+                        <span>News</span><br><br>
+                    </div>
                     <p>タイトル2タイトル2タイトル2</p>
                 </li>
                 <li>
-                    <p><time>2022.12.15</time><span>News</span></p><br><br>
+                    <div class="date_area">
+                        <time datetime="2022-12-15">2022.12.15</time>
+                        <span>News</span><br><br>
+                    </div>
                     <p>タイトル3タイトル3タイトル3タイトル3</p>
                 </li>
             </ul>
         </section>
-        <section id="about">
-            <div>
+        <section id="about" class="wrapper">
+            <div class="about_left">
                 <img class="a_pic" src="./images/bora.jpg" alt="about画像">
             </div>
-            <div>
+            <div class="about_right">
                 <h2 class="section_title"><span class="en">About</span><br><br>
                     <span class="ja">私たちについて</span></h2><br><br>
                 <p>テキストテキストテキストテキストテキストテキストテキストテキスト<br><br>
@@ -62,8 +71,9 @@
                     テキスト3テキス3トテキスト3テキスト3</p>
             </div>
         </section>
-        <section id="business">
-            <h2 class="section_title"><span class="en">Business</span><span class="js">事業内容</span></h2>
+        <section id="business" class="wrapper">
+            <h2 class="section_title"><span class="en">Business</span><br><br>
+                <span class="js">事業内容</span></h2>
             <div class="b_wrapper">
                 <div class="left_b">
                     <div>
@@ -83,7 +93,7 @@
                 </div>
             </div>
         </section>
-        <section id="company">
+        <section id="company" class="wrapper">
             <div class="c_left">
                 <h2 class="section_title"><span class="en">Company</span><br><br>
                     <span class="ja">会社情報</span></h2>
